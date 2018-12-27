@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "beta": {
+    "frite": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "beta:build"
+            "browserTarget": "frite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "beta:build:production"
+              "browserTarget": "frite:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "beta:build"
+            "browserTarget": "frite:build"
           }
         },
         "test": {
@@ -98,7 +98,7 @@
         }
       }
     },
-    "beta-e2e": {
+    "frite-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -107,11 +107,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "beta:serve"
+            "devServerTarget": "frite:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "beta:serve:production"
+              "devServerTarget": "frite:serve:production"
             }
           }
         },
@@ -125,5 +125,5 @@
       }
     }
   },
-  "defaultProject": "beta"
+  "defaultProject": "frite"
 }

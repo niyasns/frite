@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/beta",
+    "public": "dist/frite",
     "ignore": [
       "firebase.json",
       "**/.*",
